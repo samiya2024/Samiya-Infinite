@@ -1,0 +1,6 @@
+D:\Dot_Net_Training\C#\Practice\Voting_eligiblity\bin\Debug\Voting_eligiblity.exe.config
+D:\Dot_Net_Training\C#\Practice\Voting_eligiblity\bin\Debug\Voting_eligiblity.exe
+D:\Dot_Net_Training\C#\Practice\Voting_eligiblity\bin\Debug\Voting_eligiblity.pdb
+D:\Dot_Net_Training\C#\Practice\Voting_eligiblity\obj\Debug\Voting_eligiblity.csproj.CoreCompileInputs.cache
+D:\Dot_Net_Training\C#\Practice\Voting_eligiblity\obj\Debug\Voting_eligiblity.exe
+D:\Dot_Net_Training\C#\Practice\Voting_eligiblity\obj\Debug\Voting_eligiblity.pdb

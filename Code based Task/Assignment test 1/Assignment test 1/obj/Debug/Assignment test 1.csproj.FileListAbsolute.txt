@@ -1,0 +1,7 @@
+D:\Infinite training\Assignment test 1\Assignment test 1\bin\Debug\Assignment test 1.exe.config
+D:\Infinite training\Assignment test 1\Assignment test 1\bin\Debug\Assignment test 1.exe
+D:\Infinite training\Assignment test 1\Assignment test 1\bin\Debug\Assignment test 1.pdb
+D:\Infinite training\Assignment test 1\Assignment test 1\obj\Debug\Assignment test 1.csproj.AssemblyReference.cache
+D:\Infinite training\Assignment test 1\Assignment test 1\obj\Debug\Assignment test 1.csproj.CoreCompileInputs.cache
+D:\Infinite training\Assignment test 1\Assignment test 1\obj\Debug\Assignment test 1.exe
+D:\Infinite training\Assignment test 1\Assignment test 1\obj\Debug\Assignment test 1.pdb

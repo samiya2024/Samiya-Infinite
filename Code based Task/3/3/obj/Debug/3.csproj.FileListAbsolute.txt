@@ -1,0 +1,7 @@
+D:\Infinite training\Code based Task\3\3\bin\Debug\3.exe.config
+D:\Infinite training\Code based Task\3\3\bin\Debug\3.exe
+D:\Infinite training\Code based Task\3\3\bin\Debug\3.pdb
+D:\Infinite training\Code based Task\3\3\obj\Debug\3.csproj.AssemblyReference.cache
+D:\Infinite training\Code based Task\3\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+D:\Infinite training\Code based Task\3\3\obj\Debug\3.exe
+D:\Infinite training\Code based Task\3\3\obj\Debug\3.pdb
