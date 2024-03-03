@@ -1,0 +1,7 @@
+D:\Infinite training\Assignment 1\Assig2\Assig2\bin\Debug\Assig2.exe.config
+D:\Infinite training\Assignment 1\Assig2\Assig2\bin\Debug\Assig2.exe
+D:\Infinite training\Assignment 1\Assig2\Assig2\bin\Debug\Assig2.pdb
+D:\Infinite training\Assignment 1\Assig2\Assig2\obj\Debug\Assig2.csproj.AssemblyReference.cache
+D:\Infinite training\Assignment 1\Assig2\Assig2\obj\Debug\Assig2.csproj.CoreCompileInputs.cache
+D:\Infinite training\Assignment 1\Assig2\Assig2\obj\Debug\Assig2.exe
+D:\Infinite training\Assignment 1\Assig2\Assig2\obj\Debug\Assig2.pdb
