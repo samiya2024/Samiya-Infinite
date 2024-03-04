@@ -1,7 +1,0 @@
-D:\Infinite training\Code based Task\2\2\bin\Debug\2.exe.config
-D:\Infinite training\Code based Task\2\2\bin\Debug\2.exe
-D:\Infinite training\Code based Task\2\2\bin\Debug\2.pdb
-D:\Infinite training\Code based Task\2\2\obj\Debug\2.csproj.AssemblyReference.cache
-D:\Infinite training\Code based Task\2\2\obj\Debug\2.csproj.CoreCompileInputs.cache
-D:\Infinite training\Code based Task\2\2\obj\Debug\2.exe
-D:\Infinite training\Code based Task\2\2\obj\Debug\2.pdb
