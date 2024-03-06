@@ -1,0 +1,7 @@
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\obj\Debug\Assessment_2.csproj.AssemblyReference.cache
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\obj\Debug\Assessment_2.csproj.CoreCompileInputs.cache
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\bin\Debug\Assessment_2.exe.config
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\bin\Debug\Assessment_2.exe
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\bin\Debug\Assessment_2.pdb
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\obj\Debug\Assessment_2.exe
+D:\Infinite training\Assessment\Assessment_2\Assessment_2\obj\Debug\Assessment_2.pdb
