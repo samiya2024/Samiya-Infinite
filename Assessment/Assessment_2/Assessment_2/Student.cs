@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assessment_2
+namespace Student
 {
 
     abstract class Student
@@ -52,11 +52,14 @@ namespace Assessment_2
         static void Main(string[] args)
         {
             // Testing the classes
-            Undergraduate undergraduateStudent = new Undergraduate("John", 12345, 75.0);
-            Graduate graduateStudent = new Graduate("Alice", 54321, 85.0);
+            Undergraduate undergraduateStudent = new Undergraduate("Samiya", 12345, 85.0);
+            Console.WriteLine($"Graduate Student: {undergraduateStudent.Name}, ID: {undergraduateStudent.StudentId}, Grade: {undergraduateStudent.Grade}");
+            Console.WriteLine($"Is Passed: {undergraduateStudent.IsPassed(undergraduateStudent.Grade)}");
 
-            Console.WriteLine("Undergraduate student passed: " + undergraduateStudent.IsPassed(undergraduateStudent.Grade));
-            Console.WriteLine("Graduate student passed: " + graduateStudent.IsPassed(graduateStudent.Grade));
+            Graduate graduateStudent = new Graduate("Harry", 54321, 75.0);
+
+            Console.WriteLine($"Graduate Student: {graduateStudent.Name}, ID: {graduateStudent.StudentId}, Grade: {graduateStudent.Grade}");
+            Console.WriteLine($"Is Passed: {graduateStudent.IsPassed(graduateStudent.Grade)}");
             Console.ReadLine();
 
         }
