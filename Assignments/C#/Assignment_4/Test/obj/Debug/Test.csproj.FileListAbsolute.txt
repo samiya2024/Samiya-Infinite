@@ -1,0 +1,20 @@
+D:\Concession\Test\bin\Debug\Test.exe.config
+D:\Concession\Test\bin\Debug\Test.exe
+D:\Concession\Test\bin\Debug\Test.pdb
+D:\Concession\Test\bin\Debug\Concession.dll
+D:\Concession\Test\bin\Debug\Concession.pdb
+D:\Concession\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+D:\Concession\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\Concession\Test\obj\Debug\Test.csproj.CopyComplete
+D:\Concession\Test\obj\Debug\Test.exe
+D:\Concession\Test\obj\Debug\Test.pdb
+D:\Infinite training\Assignments\C#\Assignment_4\Test\bin\Debug\Test.exe.config
+D:\Infinite training\Assignments\C#\Assignment_4\Test\bin\Debug\Test.exe
+D:\Infinite training\Assignments\C#\Assignment_4\Test\bin\Debug\Test.pdb
+D:\Infinite training\Assignments\C#\Assignment_4\Test\bin\Debug\Concession.dll
+D:\Infinite training\Assignments\C#\Assignment_4\Test\bin\Debug\Concession.pdb
+D:\Infinite training\Assignments\C#\Assignment_4\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+D:\Infinite training\Assignments\C#\Assignment_4\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\Infinite training\Assignments\C#\Assignment_4\Test\obj\Debug\Test.csproj.CopyComplete
+D:\Infinite training\Assignments\C#\Assignment_4\Test\obj\Debug\Test.exe
+D:\Infinite training\Assignments\C#\Assignment_4\Test\obj\Debug\Test.pdb

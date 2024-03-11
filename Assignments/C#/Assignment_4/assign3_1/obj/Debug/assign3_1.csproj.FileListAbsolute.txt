@@ -1,0 +1,6 @@
+D:\Infinite training\Assignments\C#\Assignment_4\assign3_1\bin\Debug\assign3_1.exe.config
+D:\Infinite training\Assignments\C#\Assignment_4\assign3_1\bin\Debug\assign3_1.exe
+D:\Infinite training\Assignments\C#\Assignment_4\assign3_1\bin\Debug\assign3_1.pdb
+D:\Infinite training\Assignments\C#\Assignment_4\assign3_1\obj\Debug\assign3_1.csproj.CoreCompileInputs.cache
+D:\Infinite training\Assignments\C#\Assignment_4\assign3_1\obj\Debug\assign3_1.exe
+D:\Infinite training\Assignments\C#\Assignment_4\assign3_1\obj\Debug\assign3_1.pdb
