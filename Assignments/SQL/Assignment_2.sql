@@ -108,3 +108,18 @@ SELECT ENAME, SAL FROM EMP WHERE SAL NOT BETWEEN 1500 AND 2850;
 
 -- 15. Find all managers who have more than 2 employees reporting to them.
 SELECT MGR_ID, COUNT(*) AS "Number of Employees" FROM EMP GROUP BY MGR_ID HAVING COUNT(*) > 2;
+
+
+--16.find the list of manager  who earns less than manager but they should not be manager
+
+SELECT emp1.empo, emp1.ename, emp1.sal AS EmployeeSalary, mgr.sal AS ManagerSalary
+FROM EMP emp1
+JOIN EMP mgr ON emp1.mgr_id = mgr.empo
+WHERE emp1.sal < mgr.sal
+AND emp1.job <> 'MANAGER';
+
+SELECT e.*
+FROM EMP e
+JOIN EMP manager ON e.mgr_id = manager.empo
+WHERE e.sal < manager.sal
+AND e.job <> 'MANAGER';
