@@ -138,6 +138,8 @@ VALUES
 (6, 'Komal', 22, 'Mp', 4500.00),
 (7, 'Muffy', 24, 'Indore', 10000.00);
 
+Select*from Customer;
+
 -- Creating the Orders table
 CREATE TABLE Orders (
     OID INT PRIMARY KEY,
@@ -165,7 +167,7 @@ GROUP BY DATE;
 
 ---         Date              Total_Customers_Placed_Order
 ---2008-05-20 00:00:00.000   	1
----2009-10-08 00:00:00.000 	1
+---2009-10-08 00:00:00.000 	    1
 ---2009-11-20 00:00:00.000  	1
 
 
