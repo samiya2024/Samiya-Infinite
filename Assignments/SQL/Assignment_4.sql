@@ -47,47 +47,63 @@ end;
  
 -- 3.  Create a trigger to restrict data manipulation on EMP table during General holidays. Display the error message like “Due to Independence day you cannot manipulate data” or "Due To Diwali", you cannot manupulate" etc
 -- Note: Create holiday table as (holiday_date,Holiday_name) store at least 4 holiday details. try to match and stop manipulation
- CREATE TABLE employee (
+DROP TABLE HOLIDAY;
+-- Create the Holiday table
+CREATE TABLE Holiday (
+    H_Date DATE,
+    H_Name VARCHAR(40)
+);
+
+-- Insert holiday data
+INSERT INTO Holiday VALUES
+('2024-03-25', 'Holi'),
+('2024-08-15', 'Independence Day'),
+('2024-08-19', 'Raksha-Bandhan'),
+('2024-03-26', 'Tuesday');
+
+
+
+CREATE TRIGGER Restricted ON emp
+AFTER INSERT, DELETE, UPDATE
+AS
+BEGIN
+    DECLARE @CurrentDate DATE;
+    DECLARE @HolidayName VARCHAR(40);
+
+    -- Get the current date
+    SET @CurrentDate = GETDATE();
+
+    -- Check if the current date is a holiday
+    SELECT @HolidayName = H_Name
+    FROM Holiday
+    WHERE H_Date = @CurrentDate;
+
+    -- If it's a holiday, raise an error and rollback the transaction
+    IF @HolidayName IS NOT NULL
+    BEGIN
+        DECLARE @ErrorMessage VARCHAR(100);
+        SET @ErrorMessage = CONCAT('Due to ', @HolidayName, ', data manipulation is restricted.');
+        RAISERROR(@ErrorMessage, 16, 1);
+        ROLLBACK TRANSACTION;
+    END;
+    ELSE
+    BEGIN
+        
+        COMMIT TRANSACTION;
+    END;
+END;
+GO
+
+CREATE TABLE emp (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(100),
     emp_salary DECIMAL(10, 2)
 );
 
- -- Step 1: Create holiday table
-CREATE TABLE holiday (
-    holiday_date DATE PRIMARY KEY,
-    holiday_name VARCHAR(100)
-);
+INSERT INTO EMP VALUES(100,'SAMIYA',34000);
 
--- Step 2: Populate holiday table with holiday details
-INSERT INTO holiday (holiday_date, holiday_name) VALUES
-('2024-07-04', 'Independence Day'),
-('2024-10-25', 'Diwali'),
-('2024-12-25', 'Christmas'),
-('2025-01-01', 'New Year');
+SELECT*FROM EMP;
 
--- Step 3: Create trigger on EMP table
-DELIMITER $$
 
-create trigger Restricted on employee
-after insert, delete, update
-as
-begin
-    declare @CurrentDate date;
-    declare @HolidayName varchar(40);
 
-    set @CurrentDate = getdate();
-    select @HolidayName = holiday_name
-    from holiday
-    where holiday_date = @CurrentDate;
 
-    if @HolidayName is not null
-    begin
-	 raiserror('Due to %s, you cannot manipulate data.', 16, 1, @HolidayName);
-	 rollback transaction;
-    end
-end;
--- Explanation:
--- This trigger will prevent any manipulation (INSERT, UPDATE, DELETE) on the EMP table during holidays.
--- It checks if the date of the attempted manipulation (NEW.date_column) exists in the holiday table.
--- If a match is found, it raises an error with an appropriate message indicating the holiday name.

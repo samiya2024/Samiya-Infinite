@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assessment_3.Append</StartupObject>
+    <StartupObject>Assessment_3.Calculator_Functionalities</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
